@@ -60,8 +60,11 @@ footer {
   background-color: #333;
   padding: 14px 16px;
   }
+
+.pointer {cursor: pointer;}
+
 footer:hover {
-  background-color: LightGray;
+	background-color: LightGray;
    }
   
 br {
