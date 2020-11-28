@@ -72,6 +72,28 @@ br {
 	clear:both;
 }
 
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 150px;
+	padding-top: 37px;
+	position: relative;
+}
+
+nav ul > li > a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	transition: all ease-in-out 300ms;
+}
+
 nav a:hover{
 	text-shadow: 0 0 15px #fff,0 0 30px hsla(0,0%,100%,.3);
 	color: #fff;
@@ -99,27 +121,7 @@ nav {
 	float: left;
 }
 
-nav ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	
-}
 
-nav li{
-	display: inline-block;
-	margin-left: 150px;
-	padding-top: 37px;
-	position: relative;
-}
-
-nav ul > li > a{
-	color: #444;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 18px;
-	transition: all ease-in-out 300ms;
-}
 
 .container{
 	width: 100%;
