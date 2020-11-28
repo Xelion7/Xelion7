@@ -62,6 +62,16 @@ footer {
   padding: 14px 16px;
   }
 
+header{
+	background-image: linear-gradient(to bottom right, #84e1c2, #28a47b);
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
 .pointer {cursor: pointer;}
 
 footer:hover {
