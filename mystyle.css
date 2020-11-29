@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
+	background-color: #800000;
 }
 
 .container{
@@ -70,7 +71,7 @@ nav a:hover::before {
 
 footer {
   display: block;
-  color: white;
+  color: #ffcc99;
   text-align: center;
   text-decoration: none;
   background-color: #333;
