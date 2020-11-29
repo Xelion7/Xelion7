@@ -75,7 +75,6 @@ nav a:hover::before {
 	width: 100%;
 }
 
-<!--
 footer {
   display: block;
   color: white;
@@ -84,7 +83,7 @@ footer {
   background-color: #333;
   padding: 14px 16px;
   }
-
+<!--
 header{
 	background-image: linear-gradient(to bottom right, #84e1c2, #28a47b);
 }
