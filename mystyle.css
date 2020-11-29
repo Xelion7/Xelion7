@@ -24,6 +24,7 @@ header::after{
 
 nav {
 	float: left;
+	border:10px ridge green;
 }
 
 nav ul{
