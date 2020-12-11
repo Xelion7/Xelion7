@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Σχεδιασμός Ιστοσελίδων</title>
-  <!-- link rel="stylesheet" href="mystyle.css" -->
+  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/6a6136a156.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -15,7 +18,104 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
+<style>
+  .sxedio{
+	position:relative;
+	float:left;
+    top:100px;
+    margin:auto;
+    width:44%;
+    height:400px;
+    }
+  .dentro{
+    width:100%;
+    height:240px;
+    top:80px;
+     }
+  .christmas{
+  margin-top:5px;
+  width:100%;
+  height:40px;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 55px;
+  color:red;
+  padding-left:30px;
+  }
+.tree{
+	position:absolute;
+	color:green;
+	font-size:220px;
+	left:120px;
+}
+.stolidia{
+	color:red;
+	font-size:25px;
+	position:absolute;
+}
+.star{
+	color:#FFD700;
+	font-size:40px;
+	left:179px;
+	top:-22px;
+}
+.bell1{
+left:136px;
+top:60px;
+color:#cc6600;
+}  
+.bell2{
+left:260px;
+top:110px;
+color:#cc6600;
+}
+.berry1{
+left:206px;
+top:90px;
+}
+.berry2{
+left:136px;
+top:165px;
+} 
+.cane1{
+transform:rotate(-25deg);
+left:180px;
+top:60px;
+color:#FE0944;
+}
+.cane2{
+transform:rotate(30deg) scaleX(-1);
+left:230px;
+top:140px;
+color:#FEAE96;
+}
+.map-pin1{
+left:145px;
+top:100px;
+color:#D4AF37;
+}
+.map-pin2{
+left:175px;
+top:155px;
+color:chocolate;
+}
+.snowman{
+font-size:35px;
+left:185px;
+top:185px;
+color:white;
+}
+.snowflake1{
+left:210px;
+top:35px;
+color:white;
+}
+.snowflake2{
+left:170px;
+top:110px;
+color:white;
+}
+</style>
+  
 </head>
 <body>
 <header class="p-3 mb-2 bg-info text-white">
@@ -76,5 +176,26 @@
  
   <br><br><br><br><br><br>
 
+  <div class="sxedio"> 
+  <div class="dentro"> 
+	<i class="fas fa-tree tree"></i>
+	<i class="fas fa-bell stolidia bell1"></i>
+	<i class="fas fa-bell stolidia bell2"></i>
+	<i class="fas fa-holly-berry stolidia berry1"></i>
+	<i class="fas fa-holly-berry stolidia berry2"></i>
+	<i class="fas fa-candy-cane stolidia cane1"></i>
+	<i class="fas fa-candy-cane stolidia cane2"></i>
+	<i class="fas fa-map-pin stolidia map-pin1"></i>
+	<i class="fas fa-map-pin stolidia map-pin2"></i>
+	<i class="fas fa-star stolidia star"></i>
+	<i class="fas fa-snowman stolidia snowman"></i>
+	<i class="fas fa-snowflake stolidia snowflake1"></i>
+	<i class="fas fa-snowflake stolidia snowflake2"></i>
+ </div>
+ <div class="christmas">
+ <p>Merry Christmas</p>
+ </div>
+  </div>
+  
 </body>
 </html>
